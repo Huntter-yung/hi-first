@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+	<html> 
+	<head> 
+	<meta charset="utf-8"> 
+	<title>注册表</title> 
+	<style> 
+	body { 
+	font-size: 20px; 
+	font-family: "宋体"; 
+	} 
+	</style> 
+	</head> 
+	<body> 
+	<table width="600" height="750"> 
+	<tr> 
+	<td align="right">姓名：</td> 
+	<td> 
+	<input type="text" name="name" value="请输入你的姓名..."> 
+	</td> 
+	</tr> 
+	<tr> 
+	<td align="right">年龄：</td> 
+	<td> 
+	<input type="text" name="age" value="请输入你的年龄..."> 
+	</td> 
+	</tr> 
+	<tr> 
+	<td align="right">性别:</td> 
+	<td> 
+	<input type="radio" name="usersex" id="female" /><i><img src="woman.png"></i> 女 
+
+	<input type="radio" name="usersex" id="male" /><i><img src="man.png"></i> 男 
+
+	</td> 
+	</tr> 
+	<tr> 
+	<td align="right">生日：</td> 
+	<td> 
+	<select> 
+	<option>--请输入年份--</option> 
+	<option>1992</option> 
+	<option>1993</option> 
+	<option>1994</option> 
+	<option>1995</option> 
+	<option>1996</option> 
+	<option>1997</option> 
+	<option>1998</option> 
+	<option>1999</option> 
+	<option>2000</option> 
+	<option>2001</option> 
+	<option>2002</option> 
+	<option>2003</option> 
+	<option>2004</option> 
+	<option>2005</option> 
+	<option>2006</option> 
+	<option>2007</option> 
+	<option>2008</option> 
+	<option>2009</option> 
+	<option>2010</option> 
+	<option>2011</option> 
+	<option>2012</option> 
+	<option>2013</option> 
+	<option>2014</option> 
+	<option>2015</option> 
+	<option>2016</option> 
+	<option>2017</option> 
+	<option>2018</option> 
+	<option>2019</option> 
+	</select>年 
+	<select> 
+	<option>--请输入月份--</option> 
+	<option>01</option> 
+	<option>02</option> 
+	<option>03</option> 
+	<option>04</option> 
+	<option>05</option> 
+	<option>06</option> 
+	<option>07</option> 
+	<option>08</option> 
+	<option>09</option> 
+	<option>10</option> 
+	<option>11</option> 
+	<option>12</option> 
+	</select>月 
+	<select> 
+	<option>请输入日份</option> 
+	<option>01</option> 
+	<option>02</option> 
+	<option>03</option> 
+	<option>04</option> 
+	<option>05</option> 
+	<option>06</option> 
+	<option>07</option> 
+	<option>08</option> 
+	<option>09</option> 
+	<option>10</option> 
+	<option>11</option> 
+	<option>12</option> 
+	<option>13</option> 
+	<option>14</option> 
+	<option>15</option> 
+	<option>16</option> 
+	<option>17</option> 
+	<option>18</option> 
+	<option>19</option> 
+	<option>20</option> 
+	<option>21</option> 
+	<option>22</option> 
+	<option>23</option> 
+	<option>24</option> 
+	<option>25</option> 
+	<option>26</option> 
+	<option>27</option> 
+	<option>28</option> 
+	<option>29</option> 
+	<option>30</option> 
+	<option>31</option> 
+	</select>日 
+	</td> 
+	</tr> 
+	<tr> 
+	<td align="right">爱好：</td> 
+	<td> 
+	<input type="checkbox" name="" id="" value="1">看书 
+	<input type="checkbox" name="" id="" value="2">旅游 
+	<input type="checkbox" name="" id="" value="3">听歌 
+	<input type="checkbox" name="" id="" value="4">游戏 
+	</td> 
+	</tr> 
+	<tr> 
+	<td align="right">个人简介：</td> 
+	<td><textarea rows="6" cols="40">请输入你的个人介绍....</textarea></td> 
+	</tr> 
+	
+	</tr> 
+	<tr> 
+	<td align="center" colspan="2"><input type="checkbox" name="agree" id="f" checked /><label 
+	for="f">我同意信息录入</label></td> 
+	</tr> 
+	<tr> 
+	<td align="center" colspan="2"> 
+	<input type="submit" value="立即注册" /> 
+	<input type="reset" value="重新输入" /> 
+	</td> 
+	</tr> 
+	</body> 
+	</html>
+	
+
